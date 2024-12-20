@@ -3,34 +3,57 @@
 $font-family-sans-serif: 'Nunito', sans-serif;
 
 //colors
+$background-color:#D8EDFC;
 $orange: #F05A1F;
 $yellow: #F9AE05;
 $pink: #FF9CA1;
 $green: #017A71;
+$black:#373737;
+$white:#FFFFFF;
+$p:18px;
+$border: 30px;
 
-//radius of all boxs/bottuns 
-.border{
-    border-radius: 30px;
+p{
+    font-size: $p;
 }
+
+//header colour
+.background{
+    background-color: $background-color;
+}
+
+.btn{
+    background-color: $black !important;
+    border-radius: $border !important;
+    color:$white !important ;
+    padding: 10px  !important;
+    font-size: $p !important;
+
+    &:hover {
+        background-color: $orange !important;
+}
+}
+
 //steps colours
 .step1{
     background-color: $orange;
+    border-radius: $border;
 }
 
 .step2{
     background-color: $yellow;
+    border-radius: $border;
 }
 
 .step3{
     background-color: $pink;
+    border-radius: $border;
 }
 
 .step4{
     background-color: $green;
+    border-radius: $border;
 }
 
-
-
-// $primary: red;
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
