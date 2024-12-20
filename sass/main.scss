@@ -55,5 +55,26 @@ p{
     border-radius: $border;
 }
 
+//form
+
+//create an account box 
+.rounded-box {
+    border-radius: $border; 
+    padding: 20px; 
+    background-color: $white;
+    width: 500px ;
+}
+
+//form-btn
+.form-btn{
+    background-color: $orange !important;
+}
+
+//form background
+.form-background{
+    background-image:url(../images/ux\ 2.jpg);
+    background-size: cover;
+}
+
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
