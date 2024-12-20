@@ -4,6 +4,16 @@ p {
   font-size: 18px;
 }
 
+h2, .h2 {
+  font-size: 38px !important;
+  font-weight: 600 !important;
+}
+
+h3, .h3 {
+  font-size: 36px !important;
+  font-weight: 300 !important;
+}
+
 .background {
   background-color: #D8EDFC;
 }
@@ -17,6 +27,16 @@ p {
 }
 .btn:hover {
   background-color: #F05A1F !important;
+}
+
+.resized-image {
+  width: 80%;
+  height: auto;
+  border-radius: 30px;
+}
+
+.image {
+  border-radius: 30px;
 }
 
 .step1 {

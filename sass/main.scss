@@ -10,11 +10,24 @@ $pink: #FF9CA1;
 $green: #017A71;
 $black:#373737;
 $white:#FFFFFF;
-$p:18px;
+
 $border: 30px;
 
 p{
-    font-size: $p;
+    font-size: 18px !important;
+}
+
+h2{
+    font-size: 38px !important ;
+    font-weight: 600  !important;
+    
+}
+
+h3{
+    font-size: 36px !important;
+    font-weight: 300  !important;
+    
+   
 }
 
 //header colour
@@ -33,6 +46,23 @@ p{
         background-color: $orange !important;
 }
 }
+
+//features
+
+//reducing size
+.resized-image {
+    width: 80%;   
+    height: auto; 
+    border-radius: $border ;
+  }
+
+  .image{
+    border-radius: $border 
+  }
+
+//   .margin-bottom{                didnt work
+//     margin-bottom: -10px;
+//   }
 
 //steps colours
 .step1{
