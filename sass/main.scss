@@ -1,6 +1,35 @@
+//font
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
-
 $font-family-sans-serif: 'Nunito', sans-serif;
+
+//colors
+$orange: #F05A1F;
+$yellow: #F9AE05;
+$pink: #FF9CA1;
+$green: #017A71;
+
+//radius of all boxs/bottuns 
+.border{
+    border-radius: 30px;
+}
+//steps colours
+.step1{
+    background-color: $orange;
+}
+
+.step2{
+    background-color: $yellow;
+}
+
+.step3{
+    background-color: $pink;
+}
+
+.step4{
+    background-color: $green;
+}
+
+
 
 // $primary: red;
 
