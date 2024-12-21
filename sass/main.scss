@@ -25,9 +25,11 @@ h2{
 
 h3{
     font-size: 36px !important;
-    font-weight: 300  !important;
-    
-   
+    font-weight: 300  !important; 
+}
+
+.accordion-body{
+    font-size: 30px !important;
 }
 
 //header colour
@@ -35,6 +37,7 @@ h3{
     background-color: $background-color;
 }
 
+//botton
 .btn{
     background-color: $black !important;
     border-radius: $border !important;
@@ -106,6 +109,7 @@ h3{
     background-size: cover;
 
 }
+
 
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
